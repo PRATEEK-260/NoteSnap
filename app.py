@@ -1,5 +1,5 @@
 """
-AI Notes Summarizer - Main Application
+NoteSnap - Main Application
 A Streamlit web application for summarizing PDF files and text content using AI.
 """
 
@@ -30,7 +30,7 @@ def initialize_components():
 def main():
     """Main application function"""
     st.set_page_config(
-        page_title="AI Notes Summarizer",
+        page_title="NoteSnap",
         page_icon="📝",
         layout="wide",
         initial_sidebar_state="expanded",
@@ -40,7 +40,7 @@ def main():
     pdf_processor, text_summarizer = initialize_components()
 
     # App header
-    st.title("📝 AI Notes Summarizer")
+    st.title("📝 NoteSnap")
     st.markdown(
         "Transform your lengthy documents and notes into concise, bullet-point summaries using AI."
     )
@@ -185,7 +185,7 @@ def main():
     st.markdown(
         """
         <div style='text-align: center; color: #666;'>
-            <p>AI Notes Summarizer | Powered by Hugging Face Transformers</p>
+            <p>NoteSnap | Powered by Hugging Face Transformers</p>
         </div>
         """,
         unsafe_allow_html=True,

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📝 NoteSnap
 
 <div align="center">
@@ -475,3 +476,6 @@ If you encounter any issues or have questions:
 [![GitHub](https://img.shields.io/badge/GitHub-PRATEEK--260-181717?style=flat&logo=github)](https://github.com/PRATEEK-260)
 
 </div>
+=======
+# NoteSnap
+>>>>>>> 9b4f2dab9437daaefabf059cd647a5761c93c197
